@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.hero{
+    background-color: linear-gradient rgba(0,0,0,0.4),(0,0,0,0.4);
+    background-image: url(Images/hotel.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    box-sizing: border-box;
+}
+.hero img{
+    cursor: pointer;
+    padding-top: 3%;
+    padding-left: 30%;
+    position: relative;
+    display: flex;
+}
+.hero h1{
+    font-size: 150px;
+    font-weight: 800;
+    outline: none;
+    text-transform: uppercase;
+    background: linear-gradient(135deg, #5335cf 0%, #de005e 25%, #f66e48 50%, #de005e 75%, #5335cf 100%);
+    background-size: 400%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    animation: animate 10s linear infinite;
+    text-align: center;
+}
+@keyframes animate {
+    to{
+      background-position: 400%;
+    }
+}
+.hero p{
+  -webkit-text-fill-color: rgb(0, 183, 255);
+  -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+    font-size: 60px;
+    font-weight: 300;
+    font-family: 'Hurricane';
+    text-align: center;
+    letter-spacing: 10;
+}
+.hero .loca h3{
+    padding-top: 25px;
+    padding-right: 10px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    background-color: #ebb400;
+    text-align: center;
+}
+.hero .loca img{
+    display: block;
+    margin: auto;
+    padding: 3px;
+    width: 200px;
+}
+nav nav .container-fluid img{
+    padding: 20px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+.hero .covid h2{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    color: rgba(208, 255, 0, 0.623);
+    letter-spacing: 5;
+}
+.hero .covid img{
+    display: block;
+    margin: auto;
+    padding: 3px;
+    width: 60%;
+    padding-bottom: 40px;
+}
+.hero .covid h4{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #180955;
+}
+.hero .covid h5{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #ae00c5;
+}
+.hero .covid h5 svg{
+    color: rgb(43, 255, 0);
+    padding-right: 15px;
+}
+.hero .covid hr{
+    padding-top: 6px;
+}
+.hero .menu h2{
+    text-align: center;
+    color: 	#DAA520;
+    padding-top: 14px;
+    font-size: 42px;
+    letter-spacing: 4;
+}
+.hero .menu img{
+    display: block;
+    margin: auto;
+    padding: 3px;
+    width: 200px;
+}
+.hero .menu h3{
+    text-align: center;
+    color: 	#DAA520;
+    padding-top: 14px;
+    font-size: 42px;
+    letter-spacing: 4;
+    background-color: #180955;
+}
+.hero .menu .americanmenu img{
+    display: flex;
+    width: 70%;
+    padding-bottom: 14px;
+}
+.hero .menu h4{
+    color: 	#DAA520;
+    padding-top: 14px;
+    font-size: 42px;
+    letter-spacing: 4;
+    background-color: #180955;
+}
+.hero .menu .slideshow-container{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+.slideshow-container .prev, .next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  .prev:hover, .next:hover {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  .hero .south h4{
+    color: 	#DAA520;
+    padding-top: 14px;
+    font-size: 42px;
+    letter-spacing: 4;
+    background-color: #180955;
+  }
+  .hero hr{
+      padding: 3px;
+  }
+  .hero .menu h5{
+      color: #180955;
+      text-align: center;
+      padding-top: 20px;
+  }
+  .hero .menu h5 svg{
+      color: #de005e;
+      padding-right: 5px;
+  }
+  .hero .bottom{
+      background-image: url(Images/Table.jpg);
+      background-color: #cccccc;
+      height: 500px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+  }
+ .hero .bottom img{
+     width: 50%;
+     padding-left: 20px;
+     padding-top: 70px;
+ }
+ .hero .location{
+     background-color: #634a0c;
+ }
+ .hero .location h6{
+    color: 	#DAA520;
+    padding-top:10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 15px;
+    background-color: #100b24;
+ }
+ .hero .location span{
+     color: #c800fa;
+ }
+ .hero .location h4{
+    color: 	#ffffff;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    font-size: 22px;
+    letter-spacing: 2;
+    background-color: #634a0c;
+ }
+ .hero .location h4:hover{
+      background-color: #100b24;
+ }
+ .hero .location .contact{
+     background-color: #100b24;
+ }
+ .hero .location .contact img{
+     padding-left: 340px;
+ }
+ .hero .location .contact h2{
+     color: #DAA520;
+     text-align: center;
+     padding-top: 20px;
+     font-size: 50px;
+}
+.hero .location .contact h3{
+    color: #ffffff;
+     text-align: center;
+     padding-top: 20px;
+     font-size: 30px;
+}
+.hero .location .contact .registration-form{
+    background-color: #147f831e;
+    margin: 0px 50px 0px 250px;
+    width: 60%;
+    left: 50%;
+}
+.hero .location .contact .registration-form h6{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #f1c75d;
+    margin: 40px 0;
+}
+.hero .location .contact .registration-form input{
+    font-size: 16px;
+    margin-left: 200px;
+    padding: 15px 10px;
+    width: 50%;
+    border: 12;
+    border-radius: 5px;
+    outline: none;
+}
+.hero .location .contact .registration-form button{
+    font-size: 18px;
+    color: #af8a2d;
+    font-weight: bold;
+    margin: 20px 0px 20px 0px;
+    margin-left: 290px;
+    padding: 5px 10px;
+    width: 30%;
+    border:none;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+.hero .location .contact .registration-form button:hover{
+    background-color: #946f10;
+    color: #ffffff;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .hero h1{
+        font-size: 50px;
+    }
+    .hero p{
+          font-size: 40px;
+      }
+      .hero .location .contact img{
+        padding-left: 80px;
+        padding-top: 20px;
+    }
+    .hero .location .contact h2{
+        font-size: 40px;
+   }
+   .hero .location .contact h3{
+        font-size: 18px;
+   }
+   .hero .location .contact .registration-form{
+        margin: 10px;
+        width: 100%;
+    }
+    .hero .location .contact .registration-form h6{
+        font-size: 30px;
+    }
+    .hero .location .contact .registration-form input{
+        font-size: 13px;
+        padding: 10px 5px 10px 20px;
+        margin-left: 20px;
+        margin-bottom: 5px;
+        width: 80%;
+    }
+    .hero .location .contact .registration-form button{
+        font-size: 15px;
+        margin: 10px 0;
+        margin-left: 150px;
+        width: 30%;
+    }
+    .hero .location .contact .social svg{
+      box-sizing: border-box;
+      width: 8%;
+    }
+}
+
+  
+
+
+
+
+
+
+.hero .location .contact .social svg{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 6%;
+}
+.hero .location .contact .social svg:hover{
+    color: #ffffff;
+}
+.hero .location .contact footer{
+    color: #ffffff;
+    background-color: #946f10;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
